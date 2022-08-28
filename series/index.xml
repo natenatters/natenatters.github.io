@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on @natenatters Blog</title>
+    <link>https://natenatters.dev/series/</link>
+    <description>Recent content in Series on @natenatters Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://natenatters.dev/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://natenatters.dev/series/hugo/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://natenatters.dev/series/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://natenatters.dev/series/theme/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://natenatters.dev/series/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes Guide</title>
+      <link>https://natenatters.dev/series/themes-guide/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://natenatters.dev/series/themes-guide/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
