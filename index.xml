@@ -1,7 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>@natenatters</title><link>https://natenatters.dev/</link><description>Recent content on @natenatters</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 22 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://natenatters.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel Sail - Xdebug</title><link>https://natenatters.dev/posts/laravel-sail-xdebug/</link><pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate><guid>https://natenatters.dev/posts/laravel-sail-xdebug/</guid><description>With Sail, you can start debugging your Laravel application in less than 5 minutes!
-But, first lets understand the use cases/ modes:
-Debugging - Stop a script mid execution to inspect variables Profiling - Look at slow bottlenecks in a request Coverage - Monitor how much code is tested What will we learn? Link to heading Why modern Xdebug is so easy How does Sail do it? The Xdebug settings Using the debugger in the browser Using the profiler Using code coverage for tests xdebug_info() Why modern Xdebug is so easy Link to heading The current version, Xdebug 3, has one key difference that makes using it easy:</description></item><item><title>Hugo and Docker</title><link>https://natenatters.dev/posts/hugo-and-docker/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate><guid>https://natenatters.dev/posts/hugo-and-docker/</guid><description>tldr; Run this command in your project root:
-docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.101.0 server Whoa?! What is that? Link to heading Good question! Carry on reading to find out!
-A quick disclaimer: This is a beginner guide to using Docker to develop your Hugo site. If you want a more detailed example, please let me know @natenatters and I can make one!
-What will we learn? Link to heading What you need to run Docker How to run commands on a Docker container How to change the image you are running Let&amp;rsquo;s follow the quick start guide Link to heading As Hugo has a great quick-start guide, I want to recreate those steps and inject Docker where appropriate.</description></item><item><title>Init</title><link>https://natenatters.dev/posts/init/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://natenatters.dev/posts/init/</guid><description>Thanks for stopping by. I have put this blog together to help me learn and hopefully help some other people along the way. I have also started freelancing, so have lots of free time 😆 to write&amp;hellip; If you do want to hire me, you can contact me on Twitter @natenatters.
-I plan to post on topics that I find interesting myself, and some I feel are missing from the community at the moment.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>@natenatters</title><link>https://natenatters.dev/</link><description>Recent content on @natenatters</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 22 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://natenatters.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel Sail - Xdebug</title><link>https://natenatters.dev/posts/laravel-sail-xdebug/</link><pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate><guid>https://natenatters.dev/posts/laravel-sail-xdebug/</guid><description>&lt;p&gt;With Sail, you can start debugging your Laravel application in less than 5 minutes!&lt;/p&gt;
+&lt;p&gt;But, first lets understand the use cases/ modes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Debugging - Stop a script mid execution to inspect variables&lt;/li&gt;
+&lt;li&gt;Profiling - Look at slow bottlenecks in a request&lt;/li&gt;
+&lt;li&gt;Coverage - Monitor how much code is tested&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="what-will-we-learn"&gt;
+ What will we learn?
+ &lt;a class="heading-link" href="#what-will-we-learn"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Why modern Xdebug is so easy&lt;/li&gt;
+&lt;li&gt;How does Sail do it?&lt;/li&gt;
+&lt;li&gt;The Xdebug settings&lt;/li&gt;
+&lt;li&gt;Using the debugger in the browser&lt;/li&gt;
+&lt;li&gt;Using the profiler&lt;/li&gt;
+&lt;li&gt;Using code coverage for tests&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;xdebug_info()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="why-modern-xdebug-is-so-easy"&gt;
+ Why modern Xdebug is so easy
+ &lt;a class="heading-link" href="#why-modern-xdebug-is-so-easy"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The current version, Xdebug 3, has one key difference that makes using it easy:&lt;/p&gt;</description></item><item><title>Hugo and Docker</title><link>https://natenatters.dev/posts/hugo-and-docker/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate><guid>https://natenatters.dev/posts/hugo-and-docker/</guid><description>&lt;p&gt;tldr; Run this command in your project root:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.101.0 server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="whoa-what-is-that"&gt;
+ Whoa?! What is that?
+ &lt;a class="heading-link" href="#whoa-what-is-that"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Good question! Carry on reading to find out!&lt;/p&gt;
+&lt;p&gt;A quick disclaimer: This is a beginner guide to using Docker to develop your Hugo site. If you want a more detailed example, please let me know &lt;a href="https://twitter.com/natenatters" class="external-link" target="_blank" rel="noopener"&gt;@natenatters&lt;/a&gt; and I can make one!&lt;/p&gt;</description></item><item><title>Init</title><link>https://natenatters.dev/posts/init/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://natenatters.dev/posts/init/</guid><description>&lt;p&gt;Thanks for stopping by. I have put this blog together to help me learn and hopefully help some other people along the way. I have also started freelancing, so have lots of free time &amp;#x1f606; to write&amp;hellip; If you do want to hire me, you can contact me on Twitter &lt;a href="https://twitter.com/natenatters/" class="external-link" target="_blank" rel="noopener"&gt;@natenatters&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I plan to post on topics that I find interesting myself, and some I feel are missing from the community at the moment. These are around:&lt;/p&gt;</description></item></channel></rss>
